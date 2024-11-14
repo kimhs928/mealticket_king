@@ -1,0 +1,229 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "company_name": "회사A",
+            "breakfast_start": "00:00",
+            "breakfast_end": "05:30",
+            "lunch_start": "11:00",
+            "lunch_end": "14:59",
+            "dinner_start": "15:00",
+            "dinner_end": "22:00",
+            "point": 10000
+        },
+        {
+            "id": 2,
+            "company_name": "회사B",
+            "breakfast_start": "07:30",
+            "breakfast_end": "10:30",
+            "lunch_start": "12:00",
+            "lunch_end": "15:00",
+            "dinner_start": "17:00",
+            "dinner_end": "23:30",
+            "point": 8000
+        },
+        {
+            "id": 3,
+            "company_name": "회사C",
+            "breakfast_start": "08:00",
+            "breakfast_end": "11:00",
+            "lunch_start": "12:00",
+            "lunch_end": "14:00",
+            "dinner_start": "18:00",
+            "dinner_end": "21:00",
+            "point": 7000
+        }
+    ],
+    "admin": [
+        {
+            "admin_name": "admin",
+            "account": "aaa@@"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "user_name": "홍길동",
+            "account": "홍길동123",
+            "company_id": 1,
+            "points": 0
+        },
+        {
+            "id": 2,
+            "user_name": "김철수",
+            "account": "김철수123",
+            "company_id": 2,
+            "points": 0
+        },
+        {
+            "id": 3,
+            "user_name": "박철수",
+            "account": "박철수123",
+            "company_id": 3,
+            "points": 0
+        }
+    ],
+    "restaurants": [
+        {
+            "id": 1,
+            "res_name": "식당A",
+            "breakfast_menu": [
+                {
+                    "name": "고등어 백반",
+                    "price": 7000
+                },
+                {
+                    "name": "불고기 백반",
+                    "price": 8000
+                }
+            ],
+            "lunch_menu": [
+                {
+                    "name": "육개장",
+                    "price": 9000
+                },
+                {
+                    "name": "순대국",
+                    "price": 8500
+                },
+                {
+                    "name": "갈비탕",
+                    "price": 12000
+                },
+                {
+                    "name": "수육국밥",
+                    "price": 8000
+                },
+                {
+                    "name": "뼈해장국",
+                    "price": 10000
+                }
+            ],
+            "dinner_menu": [
+                {
+                    "name": "육개장",
+                    "price": 9000
+                },
+                {
+                    "name": "순대국",
+                    "price": 8500
+                },
+                {
+                    "name": "갈비탕",
+                    "price": 12000
+                },
+                {
+                    "name": "수육국밥",
+                    "price": 8000
+                },
+                {
+                    "name": "뼈해장국",
+                    "price": 10000
+                },
+                {
+                    "name": "수육",
+                    "price": 9500
+                }
+            ],
+            "breakfast_start": "00:30",
+            "breakfast_end": "05:30",
+            "lunch_start": "12:00",
+            "lunch_end": "15:00",
+            "dinner_start": "17:00",
+            "dinner_end": "23:30"
+        },
+        {
+            "id": 2,
+            "res_name": "식당B",
+            "breakfast_menu": [
+                {
+                    "name": "짜장면",
+                    "price": 6000
+                },
+                {
+                    "name": "짜장밥",
+                    "price": 6500
+                },
+                {
+                    "name": "짬뽕",
+                    "price": 7000
+                },
+                {
+                    "name": "짬뽕밥",
+                    "price": 7500
+                },
+                {
+                    "name": "볶음밥",
+                    "price": 7000
+                }
+            ],
+            "lunch_menu": [
+                {
+                    "name": "짜장면",
+                    "price": 6000
+                },
+                {
+                    "name": "짜장밥",
+                    "price": 6500
+                },
+                {
+                    "name": "짬뽕",
+                    "price": 7000
+                },
+                {
+                    "name": "짬뽕밥",
+                    "price": 7500
+                },
+                {
+                    "name": "볶음밥",
+                    "price": 7000
+                }
+            ],
+            "dinner_menu": [
+                {
+                    "name": "양꼬치",
+                    "price": 15000
+                },
+                {
+                    "name": "짜장면",
+                    "price": 6000
+                },
+                {
+                    "name": "짜장밥",
+                    "price": 6500
+                },
+                {
+                    "name": "짬뽕",
+                    "price": 7000
+                },
+                {
+                    "name": "짬뽕밥",
+                    "price": 7500
+                },
+                {
+                    "name": "볶음밥",
+                    "price": 7000
+                }
+            ],
+            "breakfast_start": "07:30",
+            "breakfast_end": "10:30",
+            "lunch_start": "12:00",
+            "lunch_end": "15:00",
+            "dinner_start": "17:00",
+            "dinner_end": "20:30"
+        },
+        {
+            "id": 3,
+            "res_name": "식당C",
+            "breakfast_menu": [],
+            "lunch_menu": [],
+            "dinner_menu": [],
+            "breakfast_start": "07:30",
+            "breakfast_end": "10:30",
+            "lunch_start": "12:00",
+            "lunch_end": "15:00",
+            "dinner_start": "17:00",
+            "dinner_end": "20:30"
+        }
+    ]
+}
