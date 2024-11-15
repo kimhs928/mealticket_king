@@ -34,45 +34,8 @@
 | 결제 후 남은 포인트 표시         | 결제 후 사용자의 남은 포인트가 화면에 표시된다.  |
 
 ## 3. UML 다이어그램
-![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/aa8feaaf-546d-43b2-a47a-9430a96cec31)
+![제목 없는 다이어그램 drawio (1)](https://github.com/user-attachments/assets/96cda0fa-7ea7-4a41-8e80-a66e570766ea)
 
 ## 4. 데이터
-
-### **Companies**
-| 컬럼          | 데이터 타입  | 설명                               |
-|---------------------|-------------|------------------------------------|
-| id                  | int         | 회사 ID                            |
-| company_name        | string      | 회사명                             |
-| breakfast_start     | string      | 아침 시작 시간 (HH:mm 형식)         |
-| breakfast_end       | string      | 아침 종료 시간 (HH:mm 형식)         |
-| lunch_start         | string      | 점심 시작 시간 (HH:mm 형식)         |
-| lunch_end           | string      | 점심 종료 시간 (HH:mm 형식)         |
-| dinner_start        | string      | 저녁 시작 시간 (HH:mm 형식)         |
-| dinner_end          | string      | 저녁 종료 시간 (HH:mm 형식)         |
-| point               | int         | 포인트 값                          |
-
-### **Users**
-| 컬럼            | 데이터 타입  | 설명                               |
-|---------------------|-------------|------------------------------------|
-| id                  | int         | 사용자 ID                          |
-| user_name           | string      | 사용자 이름                        |
-| account             | string      | 사용자 계정                        |
-| company_id          | int         | 회사 ID (Companies 테이블과 연결)   |
-| points              | int         | 사용자의 포인트                    |
-
-### **Restaurants**
-| 컬럼            | 데이터 타입  | 설명                               |
-|---------------------|-------------|------------------------------------|
-| id                  | int         | 식당 ID                            |
-| res_name            | string      | 식당 이름                          |
-| breakfast_menu      | list        | 아침 메뉴                          |
-| lunch_menu          | list        | 점심 메뉴                          |
-| dinner_menu         | list        | 저녁 메뉴                          |
-| breakfast_start     | string      | 아침 시작 시간 (HH:mm 형식)         |
-| breakfast_end       | string      | 아침 종료 시간 (HH:mm 형식)         |
-| lunch_start         | string      | 점심 시작 시간 (HH:mm 형식)         |
-| lunch_end           | string      | 점심 종료 시간 (HH:mm 형식)         |
-| dinner_start        | string      | 저녁 시작 시간 (HH:mm 형식)         |
-| dinner_end          | string      | 저녁 종료 시간 (HH:mm 형식)         |
-
+![image](https://github.com/user-attachments/assets/e552f2e5-6798-4f62-8fc5-9f7c4239d3dd)
 
