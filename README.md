@@ -34,7 +34,7 @@
 | 결제 후 남은 포인트 표시         | 결제 후 사용자의 남은 포인트가 화면에 표시된다.  |
 
 ## 3. UML 다이어그램
-![제목 없는 다이어그램 drawio (2)](https://github.com/user-attachments/assets/2783c622-1332-4c5e-b630-5c6fa8ad9110)
+![제목 없는 다이어그램 drawio (3)](https://github.com/user-attachments/assets/63015e1e-c35b-4363-8d74-e40304229b5b)
 
 
 ## 4. 데이터
